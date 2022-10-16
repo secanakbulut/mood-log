@@ -14,6 +14,27 @@
     <div id="picker" class="picker"></div>
 
     <p id="status" class="status"></p>
+
+    <section class="averages">
+      <div class="avg">
+        <span class="label">last 7 days</span>
+        <span id="avg-week" class="value">-</span>
+      </div>
+      <div class="avg">
+        <span class="label">last 30 days</span>
+        <span id="avg-month" class="value">-</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>last 90 days</h2>
+      <div id="heatmap" class="heatmap"></div>
+      <div class="legend">
+        <span>rough</span>
+        <span class="bar"></span>
+        <span>great</span>
+      </div>
+    </section>
   </main>
 
   <script src="app.js"></script>
