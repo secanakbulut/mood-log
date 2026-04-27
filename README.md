@@ -1,5 +1,7 @@
 # mood-log
 
+![](docs/screenshot.png)
+
 a tiny page to log my mood each day and see a heatmap of the last few months. made this on a quiet weekend while learning js, partly because i kept forgetting how the week actually felt by friday.
 
 ## what it does
